@@ -1,7 +1,9 @@
 
 {
   "version": 2,
-  "outputDirectory": "demo/src/main/resources/static",
+  "outputDirectory": "src/main/resources/static",
+ 
+
   "routes": [
     { "handle": "filesystem" },
     { "src": "/.*", "dest": "/index.html" }
